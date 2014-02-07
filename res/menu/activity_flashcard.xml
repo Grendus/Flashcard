@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_settings"
+        android:title="@string/menu_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+    <item android:id="@+id/menu_import" android:title="Import cards from file"></item>
+    <item android:id="@+id/menu_create" android:title="Create new cards"></item>
+    <item android:id="@+id/menu_save" android:title="Save Current Stack"></item>
+    <item android:id="@+id/menu_clear_stack" android:title="Clear Stack"></item>
+</menu>
